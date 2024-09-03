@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+nav{
+    height: 80px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px)/2);
+}
+
+.logo{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+body{
+    background-color:yellow;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding:0 1.5rem ;
+}
+.hero{
+    background-color:yellow;
+}
+.hero-container{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    height: 95vh;
+    padding: 3 rem calc((100vw-1300px) / 2);
+}
+
+.column-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    padding: 0rem 2 rem;
+}
+
+.column-left h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.column-left button a{
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+    color: yellow;
+}
+
+.column-left p{ 
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+button{
+    padding: 1rem ;
+    font-size: 1 rem;
+    background-color: black;
+    color: yellow
+}
+p{
+    text-align: center;
+    font-size: 60px;
+}
